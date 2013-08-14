@@ -1,0 +1,1 @@
+coffee -o public -w "src/cosmic_randomizer.coffee"
