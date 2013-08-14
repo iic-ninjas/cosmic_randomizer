@@ -371,16 +371,62 @@
   })();
 
   App.Randomiser = (function() {
-    function Randomiser(number_of_players) {
-      var aliens;
-      aliens = Aliens.games.baseGame;
-      aliens = _.shuffle(aliens);
+    Randomiser.prototype.defaults = {
+      numPlayers: 4,
+      games: ['baseGame'],
+      colors: ['green', 'yellow', 'red']
+    };
+
+    function Randomiser(options) {
+      if (options == null) {
+        options = {};
+      }
+      this.options = _.defaults(options, this.defaults);
+      this.listen();
     }
+
+    Randomiser.prototype.reset = function() {
+      this.aliens = [];
+      this.aliens = _.union(this.aliens, App.Aliens.games.baseGame);
+      this.aliens = _.shuffle(this.aliens);
+      return this.players = [];
+    };
+
+    Randomiser.prototype.shuffle = function() {
+      var _this = this;
+      return _.times(this.options.numPlayers, function() {
+        var twoAliens;
+        twoAliens = [_this.aliens.pop(), _this.aliens.pop()];
+        return _this.players.push(twoAliens);
+      });
+    };
+
+    Randomiser.prototype.listen = function() {
+      var _this = this;
+      return $('.randomise-button').on('click', function() {
+        return _this.run();
+      });
+    };
+
+    Randomiser.prototype.run = function() {
+      var el;
+      this.reset();
+      this.shuffle();
+      el = $(".content");
+      el.empty();
+      return _.each(window.randomiser.players, function(player, index) {
+        var div;
+        div = $("<div class='player'><h2>Player " + index + "</h2><img src='" + player[0].image_url + "'/><img src='" + player[1].image_url + "'/></div>");
+        return el.append(div);
+      });
+    };
 
     return Randomiser;
 
   })();
 
   window.App = App;
+
+  window.randomiser = new App.Randomiser();
 
 }).call(this);

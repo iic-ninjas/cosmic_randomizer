@@ -7,8 +7,45 @@ class App.Aliens
 
 
 class App.Randomiser
-  constructor: (number_of_players) ->
-    aliens = Aliens.games.baseGame
-    aliens = _.shuffle(aliens)
+  defaults:
+    numPlayers: 4
+    games: ['baseGame']
+    colors: ['green', 'yellow', 'red']
+
+  constructor: (options = {}) ->
+    @options = _.defaults(options, @defaults)
+    @listen()
+
+  reset: ->
+    @aliens = []
+    @aliens = _.union(@aliens, App.Aliens.games.baseGame)
+    # TODO: add aliens from opts
+    # TODO: filter aliens by color
+    @aliens = _.shuffle(@aliens)
+
+    @players = []
+
+  shuffle: ->
+    _.times @options.numPlayers, =>
+      twoAliens = [@aliens.pop(), @aliens.pop()]
+      @players.push(twoAliens)
+
+  listen: ->
+    $('.randomise-button').on('click',=> @run())
+
+  run: ->
+    @reset()
+    @shuffle()
+    el = $(".content")
+    el.empty()
+
+    _.each window.randomiser.players, (player, index) ->
+      div = $("<div class='player'><h2>Player #{index}</h2><img src='#{player[0].image_url}'/><img src='#{player[1].image_url}'/></div>")
+      el.append(div)
+
+
 
 window.App = App
+
+window.randomiser = new App.Randomiser()
+
