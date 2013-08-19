@@ -1,1 +1,1 @@
-coffee -o public -w "src/cosmic_randomizer.coffee"
+coffee -o public/js -w "src/cosmic_randomizer.coffee"
