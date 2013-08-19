@@ -1,0 +1,22 @@
+[
+    {"name":"Cavalry","description":"Plays Encounter Card as Ally","complexity":"green","image_url":"/cc/191845_187061524664693_96650_o.jpg"},
+    {"name":"Changeling","description":"Swaps Powers with Opponent","complexity":"green","image_url":"/cc/191563_187075964663249_1331649_o.jpg"},
+    {"name":"Empath","description":"May Change Attack to Negotiate","complexity":"green","image_url":"/cc/172402_187076907996488_4911183_o.jpg"},
+    {"name":"Filth","description":"Drives Away Others' Ships","complexity":"red","image_url":"/cc/172764_187333644637481_2962227_o.jpg"},
+    {"name":"Glutton","description":"Gets Extra Ships and Cards","complexity":"green","image_url":"/cc/193009_187333681304144_3855471_o.jpg"},
+    {"name":"Graviton","description":"Compresses Attacks to 1 Digit","complexity":"yellow","image_url":"/cc/194588_187333737970805_4847585_o.jpg"},
+    {"name":"Industrialist","description":"Adds Losing Attack Cards","complexity":"yellow","image_url":"/cc/195081_187333774637468_6358511_o.jpg"},
+    {"name":"Invader","description":"Launches Sneak Attacks","complexity":"yellow","image_url":"/cc/191832_187333811304131_6854086_o.jpg"},
+    {"name":"Lunatic","description":"Allies Against Self ","complexity":"yellow","image_url":"/cc/194438_187333841304128_2793816_o.jpg"},
+    {"name":"Mimic","description":"Copies Opponent's Hand Size","complexity":"yellow","image_url":"/cc/191031_187333897970789_3718229_o.jpg"},
+    {"name":"Prophet","description":"Predicts Encounter Winner","complexity":"red","image_url":"/cc/191037_187333927970786_6816324_o.jpg"},
+    {"name":"Relic","description":"Gains Power from New Hands","complexity":"red","image_url":"/cc/172730_187333974637448_3026320_o"},
+    {"name":"Saboteur","description":"Booby Traps Planets","complexity":"red","image_url":"/cc/192314_187334011304111_5870596_o.jpg"},
+    {"name":"Sadist","description":"Tries to Kill Others' Ships","complexity":"red","image_url":"/cc/191678_187334044637441_5301626_o.jpg"},
+    {"name":"Siren","description":"Entices Challengers","complexity":"yellow","image_url":"191055_187334091304103_4293329_o.jpg"},
+    {"name":"The Claw","description":"Steals Planets","complexity":"red","image_url":"/cc/194822_187334121304100_2050311_o.jpg"},
+    {"name":"Trickster","description":"Wins 50% of the Time","complexity":"green","image_url":"/cc/194944_187334154637430_5196924_o.jpg"},
+    {"name":"Visionary","description":"Dictates Encounter Cards","complexity":"yellow","image_url":"/cc/190843_187334204637425_3432484_o.jpg"},
+    {"name":"Warhawk","description":"Never Negotiates","complexity":"yellow","image_url":"/cc/192678_187334244637421_1782660_o.jpg"},
+    {"name":"Xenophile","description":"Gains Strength from 'Tourists'","complexity":"green","image_url":"/cc/194166_187334284637417_7673656_o.jpg"}
+]

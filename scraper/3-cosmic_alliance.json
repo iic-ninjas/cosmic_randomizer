@@ -1,0 +1,22 @@
+[
+    {"name":"Animal","description":"Throws a Hearty Party","complexity":"yellow","image_url":"/ca/421889_332049870165857_1814785554_n.jpg"},
+    {"name":"Bandit","description":"'Takes A Spin' Each Turn","complexity":"red","image_url":"/ca/426136_332926810078163_1877516668_n.jpg"},
+    {"name":"Butler","description":"Gets Cards for Chores","complexity":"yellow","image_url":"/ca/417633_332926830078161_2128349110_n.jpg"},
+    {"name":"Chrysalis","description":"Becomes Another Alien","complexity":"red","image_url":"/ca/428682_332926843411493_1730310537_n.jpg"},
+    {"name":"Crystal","description":"May Multiply Attack Cards","complexity":"yellow","image_url":"/ca/419338_332926883411489_662141657_n.jpg"},
+    {"name":"Cyborg","description":"Has 3 Extra Face Up Cards","complexity":"yellow","image_url":"/ca/425627_332926906744820_755753557_n.jpg"},
+    {"name":"Extortionist","description":"Gets Half of All New Cards","complexity":"yellow","image_url":"/ca/425462_332926913411486_2108023210_n.jpg"},
+    {"name":"General","description":"Draws Cards for Allies","complexity":"green","image_url":"/ca/420692_332926923411485_323510960_n.jpg"},
+    {"name":"Gorgon","description":"Petrifies Others' Ships","complexity":"red","image_url":"/ca/416777_332926940078150_766556526_n.jpg"},
+    {"name":"Horde","description":"Gains Tokens That Act as Ships","complexity":"red","image_url":"/ca/417313_341785605858950_534260200_n.jpg"},
+    {"name":"Lightning","description":"Gains and Takes Away Encounters","complexity":"yellow","image_url":"/ca/423153_332927016744809_1559422573_n.jpg"},
+    {"name":"Poison","description":"Has Hazardous Home System","complexity":"red","image_url":"/ca/421005_332927033411474_1134013476_n.jpg"},
+    {"name":"Pygmy","description":"Colonies Count as Half","complexity":"green","image_url":"/ca/64123_332927053411472_342416316_n.jpg"},
+    {"name":"Reborn","description":"Filters Hand of Cards","complexity":"green","image_url":"/ca/419835_332927083411469_492012024_n.jpg"},
+    {"name":"Remote","description":"Forces Others to Ally","complexity":"red","image_url":"/ca/417646_332927110078133_1763570463_n.jpg"},
+    {"name":"Sapient","description":"Adds Wisdom Points","complexity":"green","image_url":"/ca/417106_332927163411461_331077145_n.jpg"},
+    {"name":"Schizoid","description":"Changes Goal of Game","complexity":"red","image_url":"/ca/427989_332927193411458_1141086369_n.jpg"},
+    {"name":"Skeptic","description":"Doubles Risk of Encounter","complexity":"yellow","image_url":"/ca/420759_332927213411456_56993550_n.jpg"},
+    {"name":"Sting","description":"Switch Lost Ships","complexity":"yellow","image_url":"/ca/419731_332927236744787_1698549843_n.jpg"},
+    {"name":"Winner","description":"Gains Extra Colonies","complexity":"yellow","image_url":"/ca/421893_332927246744786_1640395600_n.jpg"}
+]

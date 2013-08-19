@@ -16,8 +16,8 @@ def query(url)
 end
 
 VERSIONS  = [
-    {:path => 'wiki/FFG', :file => 'base_game.json'},
-    {:path => 'wiki/Cosmic_Incursion', :file => 'cosmic_incursion_1.json'}
+    {:path => 'wiki/FFG', :file => '0-cosmic_encounter.json'},
+    {:path => 'wiki/Cosmic_Incursion', :file => '1-cosmic_incursion.json'}
 ]
 
 

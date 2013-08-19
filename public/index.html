@@ -4,15 +4,61 @@
   <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
   <link href="/bootstrap.css" rel="stylesheet">
   <script src="/bootstrap.js"></script>
+    <style>
+        .alien-card{
+            width: 150px;
+        }
+    </style>
 </head>
 <body>
   <div class='container'>
     <header>
         <h1>Cosmic Encounter - The Randomiser</h1>
     </header>
-    <button class='btn btn-lg btn-primary randomise-button'>
-        RANDOMISE
-    </button>
+    <div class='form-inline'>
+        <label>Alien Races from: </label>
+        <div class="btn-group games" data-toggle="buttons">
+          <label class="btn btn-default active btn-xs" data-value='0'>
+            <input type="checkbox"> Base Game
+          </label>
+          <label class="btn btn-default btn-xs" data-value='1'>
+            <input type="checkbox"> Cosmic Incursion
+          </label>
+          <label class="btn btn-default btn-xs" data-value='2'>
+            <input type="checkbox"> Cosmic Conflict
+          </label>
+          <label class="btn btn-default btn-xs" data-value='3'>
+            <input type="checkbox"> Cosmic Alliance
+          </label>
+        </div>
+    </div>
+      <br/>
+      <div class='form-inline'>
+              <label>Race Complexity: </label>
+              <div class="btn-group complexity" data-toggle="buttons">
+                <label class="btn btn-success active btn-xs" data-value='green'>
+                  <input type="checkbox"> BEGINNER
+                </label>
+                <label class="btn btn-warning active btn-xs" data-value='yellow'>
+                  <input type="checkbox"> INTERMEDIATE
+                </label>
+                <label class="btn btn-danger active btn-xs" data-value='red'>
+                  <input type="checkbox"> ADVANCED
+                </label>
+              </div>
+  </div>
+      <br/>
+
+    <div class='form-inline'>
+        <select class='form-control' id='number-of-players' style='width: 200px'>
+            <option value=4>4 Players</option>
+            <option value=5>5 Players</option>
+            <option value=6>6 Players</option>
+            <option value=7>7 Players</option>
+            <option value=8>8 Players</option>
+        </select>
+        <input type='submit' value='RANDOMISE' class='btn btn-m btn-primary randomise-button'></input>
+    </div>
     <div class='content'>
 
     </div>
