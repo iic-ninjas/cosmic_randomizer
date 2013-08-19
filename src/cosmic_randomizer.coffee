@@ -56,11 +56,11 @@ class App.Randomiser
     _.each window.randomiser.players, (player, index) =>
       html = """
              <div class='row player'>
-             <div class='col-md-12'>
+             <div class='col-md-12 col-xs-12'>
               <div class='row text-center'><h1>Player #{index+1}</h1></div>
               <div class='row'>
-                <div class='col-md-4 col-md-offset-1 text-center well'>#{@alienDiv(player[0])}</div>
-                <div class='col-md-4 col-md-offset-2 text-center well'>#{@alienDiv(player[1])}</div>
+                <div class='col-xs-6 col-md-4 col-md-offset-1 text-center well'>#{@alienDiv(player[0])}</div>
+                <div class='col-xs-6 col-md-4 col-md-offset-2 text-center well'>#{@alienDiv(player[1])}</div>
               </div>
              </div>
              </div>

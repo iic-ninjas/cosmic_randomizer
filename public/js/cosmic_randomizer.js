@@ -642,7 +642,7 @@
       el.empty();
       return _.each(window.randomiser.players, function(player, index) {
         var div, html;
-        html = "<div class='row player'>\n<div class='col-md-12'>\n <div class='row text-center'><h1>Player " + (index + 1) + "</h1></div>\n <div class='row'>\n   <div class='col-md-4 col-md-offset-1 text-center well'>" + (_this.alienDiv(player[0])) + "</div>\n   <div class='col-md-4 col-md-offset-2 text-center well'>" + (_this.alienDiv(player[1])) + "</div>\n </div>\n</div>\n</div>";
+        html = "<div class='row player'>\n<div class='col-md-12 col-xs-12'>\n <div class='row text-center'><h1>Player " + (index + 1) + "</h1></div>\n <div class='row'>\n   <div class='col-xs-6 col-md-4 col-md-offset-1 text-center well'>" + (_this.alienDiv(player[0])) + "</div>\n   <div class='col-xs-6 col-md-4 col-md-offset-2 text-center well'>" + (_this.alienDiv(player[1])) + "</div>\n </div>\n</div>\n</div>";
         div = $(html);
         return el.append(div);
       });
