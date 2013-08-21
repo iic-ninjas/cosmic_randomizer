@@ -1,0 +1,79 @@
+@mixin desktop(){
+  @media (min-width: 768px){
+    @content;
+  }
+}
+
+body{
+  background: rgba(5, 27, 39, 0.24);
+
+  //background-image: url('/images/space.jpg');
+}
+
+header{
+  background: #051b27;
+  color: #f0f0ff;
+  padding: 20px 0;
+  margin-bottom: 10px;
+
+  h1{
+    font-size: 26px;
+    @include desktop(){
+      font-size: 50px;
+    }
+  }
+
+  p{
+    color: #fffccc;
+  }
+}
+
+#number-of-players{
+  @include desktop(){
+    width: 200px;
+  }
+}
+
+.alien{
+  h2{
+    text-transform: uppercase;
+  }
+  &.green i   { color: green; }
+  &.yellow i  { color: yellow; }
+  &.red i     { color: red; }
+}
+
+.alien-card{
+  width: 150px;
+}
+
+.games, .complexity{
+  .btn{
+    i{
+      visibility: hidden;
+      //display: none;
+    }
+    &.active{
+      i{
+        visibility: visible;
+        //display: inline;
+      }
+    }
+  }
+}
+
+.player{
+  background-color: rgba(white, 0.2);
+  &:nth-child(2n){
+    background-color: rgba(white, 0.5);
+  }
+
+  &:nth-child(1) .player-name { color: green; }
+  &:nth-child(2) .player-name { color: blue; }
+  &:nth-child(3) .player-name { color: purple; }
+  &:nth-child(4) .player-name { color: red; }
+  &:nth-child(5) .player-name { color: yellow; text-shadow: 0 0px 1px black}
+  &:nth-child(6) .player-name { color: orange; }
+  &:nth-child(7) .player-name { color: black; }
+  &:nth-child(8) .player-name { color: white; text-shadow: 0 0px 1px black}
+}

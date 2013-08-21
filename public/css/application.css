@@ -1,0 +1,59 @@
+body {
+  background: rgba(5, 27, 39, 0.24); }
+
+header {
+  background: #051b27;
+  color: #f0f0ff;
+  padding: 20px 0;
+  margin-bottom: 10px; }
+  header h1 {
+    font-size: 26px; }
+    @media (min-width: 768px) {
+      header h1 {
+        font-size: 50px; } }
+  header p {
+    color: #fffccc; }
+
+@media (min-width: 768px) {
+  #number-of-players {
+    width: 200px; } }
+
+.alien h2 {
+  text-transform: uppercase; }
+.alien.green i {
+  color: green; }
+.alien.yellow i {
+  color: yellow; }
+.alien.red i {
+  color: red; }
+
+.alien-card {
+  width: 150px; }
+
+.games .btn i, .complexity .btn i {
+  visibility: hidden; }
+.games .btn.active i, .complexity .btn.active i {
+  visibility: visible; }
+
+.player {
+  background-color: rgba(255, 255, 255, 0.2); }
+  .player:nth-child(2n) {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .player:nth-child(1) .player-name {
+    color: green; }
+  .player:nth-child(2) .player-name {
+    color: blue; }
+  .player:nth-child(3) .player-name {
+    color: purple; }
+  .player:nth-child(4) .player-name {
+    color: red; }
+  .player:nth-child(5) .player-name {
+    color: yellow;
+    text-shadow: 0 0px 1px black; }
+  .player:nth-child(6) .player-name {
+    color: orange; }
+  .player:nth-child(7) .player-name {
+    color: black; }
+  .player:nth-child(8) .player-name {
+    color: white;
+    text-shadow: 0 0px 1px black; }

@@ -266,102 +266,122 @@
           "name": "Bully",
           "description": "selects losing ships",
           "complexity": "yellow",
-          "image_url": "http://images1.wikia.nocookie.net/__cb20100414181046/cosmicencounter/images/thumb/6/62/Bully_%28FFG%29.jpg/150px-Bully_%28FFG%29.jpg"
+          "image_url": "http://images1.wikia.nocookie.net/__cb20100414181046/cosmicencounter/images/thumb/6/62/Bully_%28FFG%29.jpg/150px-Bully_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Chronos",
           "description": "Can replay encounter",
           "complexity": "yellow",
-          "image_url": "http://images1.wikia.nocookie.net/__cb20100414181215/cosmicencounter/images/thumb/7/71/Chronos_%28FFG%29.jpg/150px-Chronos_%28FFG%29.jpg"
+          "image_url": "http://images1.wikia.nocookie.net/__cb20100414181215/cosmicencounter/images/thumb/7/71/Chronos_%28FFG%29.jpg/150px-Chronos_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Cryo",
           "description": "Saves cards for later",
           "complexity": "yellow",
-          "image_url": "http://images2.wikia.nocookie.net/__cb20100414181444/cosmicencounter/images/thumb/d/d9/Cryo_%28FFG%29.jpg/150px-Cryo_%28FFG%29.jpg"
+          "image_url": "http://images2.wikia.nocookie.net/__cb20100414181444/cosmicencounter/images/thumb/d/d9/Cryo_%28FFG%29.jpg/150px-Cryo_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Deuce",
           "description": "Plays 2 encounter cards",
           "complexity": "yellow",
-          "image_url": "http://images3.wikia.nocookie.net/__cb20100414182508/cosmicencounter/images/thumb/6/6f/Deuce_%28FFG%29.jpg/150px-Deuce_%28FFG%29.jpg"
+          "image_url": "http://images3.wikia.nocookie.net/__cb20100414182508/cosmicencounter/images/thumb/6/6f/Deuce_%28FFG%29.jpg/150px-Deuce_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Disease",
           "description": "Spreads to other planets",
           "complexity": "red",
-          "image_url": "http://images2.wikia.nocookie.net/__cb20100414183127/cosmicencounter/images/thumb/4/4f/Disease_%28FFG%29.jpg/150px-Disease_%28FFG%29.jpg"
+          "image_url": "http://images2.wikia.nocookie.net/__cb20100414183127/cosmicencounter/images/thumb/4/4f/Disease_%28FFG%29.jpg/150px-Disease_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Ethic",
           "description": "Gets compensation for attack",
           "complexity": "green",
-          "image_url": "http://images4.wikia.nocookie.net/__cb20100414183503/cosmicencounter/images/thumb/7/7f/Ethic_%28FFG%29.jpg/150px-Ethic_%28FFG%29.jpg"
+          "image_url": "http://images4.wikia.nocookie.net/__cb20100414183503/cosmicencounter/images/thumb/7/7f/Ethic_%28FFG%29.jpg/150px-Ethic_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Fungus",
           "description": "Attaches to other ships",
           "complexity": "yellow",
-          "image_url": "http://images1.wikia.nocookie.net/__cb20100414183829/cosmicencounter/images/thumb/9/90/Fungus_%28FFG%29.jpg/150px-Fungus_%28FFG%29.jpg"
+          "image_url": "http://images1.wikia.nocookie.net/__cb20100414183829/cosmicencounter/images/thumb/9/90/Fungus_%28FFG%29.jpg/150px-Fungus_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Fury",
           "description": "Avenges lost ships",
           "complexity": "green",
-          "image_url": "http://images3.wikia.nocookie.net/__cb20100414184211/cosmicencounter/images/thumb/b/b6/Fury_%28FFG%29.jpg/150px-Fury_%28FFG%29.jpg"
+          "image_url": "http://images3.wikia.nocookie.net/__cb20100414184211/cosmicencounter/images/thumb/b/b6/Fury_%28FFG%29.jpg/150px-Fury_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Genius",
           "description": "Wins with 20 cards",
           "complexity": "red",
-          "image_url": "http://images2.wikia.nocookie.net/__cb20100414184516/cosmicencounter/images/thumb/8/86/Genius_%28FFG%29.jpg/150px-Genius_%28FFG%29.jpg"
+          "image_url": "http://images2.wikia.nocookie.net/__cb20100414184516/cosmicencounter/images/thumb/8/86/Genius_%28FFG%29.jpg/150px-Genius_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Ghoul",
           "description": "Rewarded for defeating ships",
           "complexity": "red",
-          "image_url": "http://images3.wikia.nocookie.net/__cb20100414184929/cosmicencounter/images/thumb/2/2a/Ghoul_%28FFG%29.jpg/150px-Ghoul_%28FFG%29.jpg"
+          "image_url": "http://images3.wikia.nocookie.net/__cb20100414184929/cosmicencounter/images/thumb/2/2a/Ghoul_%28FFG%29.jpg/150px-Ghoul_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Guerrilla",
           "description": "Winners lose all but 1 ship",
           "complexity": "green",
-          "image_url": "http://images1.wikia.nocookie.net/__cb20100414185317/cosmicencounter/images/thumb/f/f2/Guerrilla_%28FFG%29.jpg/150px-Guerrilla_%28FFG%29.jpg"
+          "image_url": "http://images1.wikia.nocookie.net/__cb20100414185317/cosmicencounter/images/thumb/f/f2/Guerrilla_%28FFG%29.jpg/150px-Guerrilla_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Leviathan",
           "description": "May attack with planet",
           "complexity": "yellow",
-          "image_url": "http://images3.wikia.nocookie.net/__cb20100414185652/cosmicencounter/images/thumb/b/bc/Leviathan_%28FFG%29.jpg/150px-Leviathan_%28FFG%29.jpg"
+          "image_url": "http://images3.wikia.nocookie.net/__cb20100414185652/cosmicencounter/images/thumb/b/bc/Leviathan_%28FFG%29.jpg/150px-Leviathan_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Locust",
           "description": "Eats planets when alone",
           "complexity": "yellow",
-          "image_url": "http://images2.wikia.nocookie.net/__cb20100414190243/cosmicencounter/images/thumb/6/6c/Locust_%28FFG%29.jpg/150px-Locust_%28FFG%29.jpg"
+          "image_url": "http://images2.wikia.nocookie.net/__cb20100414190243/cosmicencounter/images/thumb/6/6c/Locust_%28FFG%29.jpg/150px-Locust_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Magician",
           "description": "Steals card, confounds opponent",
           "complexity": "red",
-          "image_url": "http://images2.wikia.nocookie.net/__cb20100414190630/cosmicencounter/images/thumb/9/95/Magician_%28FFG%29.jpg/150px-Magician_%28FFG%29.jpg"
+          "image_url": "http://images2.wikia.nocookie.net/__cb20100414190630/cosmicencounter/images/thumb/9/95/Magician_%28FFG%29.jpg/150px-Magician_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Mercenary",
           "description": "Always rewarded for winning",
           "complexity": "green",
-          "image_url": "http://images3.wikia.nocookie.net/__cb20100414191032/cosmicencounter/images/thumb/4/44/Mercenary_%28FFG%29.jpg/150px-Mercenary_%28FFG%29.jpg"
+          "image_url": "http://images3.wikia.nocookie.net/__cb20100414191032/cosmicencounter/images/thumb/4/44/Mercenary_%28FFG%29.jpg/150px-Mercenary_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Merchant",
           "description": "Plays cards as extra ships",
           "complexity": "yellow",
-          "image_url": "http://images4.wikia.nocookie.net/__cb20100414191431/cosmicencounter/images/thumb/4/43/Merchant_%28FFG%29.jpg/150px-Merchant_%28FFG%29.jpg"
+          "image_url": "http://images4.wikia.nocookie.net/__cb20100414191431/cosmicencounter/images/thumb/4/43/Merchant_%28FFG%29.jpg/150px-Merchant_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Plant",
           "description": "Accumulates opponents' powers",
           "complexity": "red",
-          "image_url": "http://images4.wikia.nocookie.net/__cb20100414191844/cosmicencounter/images/thumb/c/c2/Plant_%28FFG%29.jpg/150px-Plant_%28FFG%29.jpg"
+          "image_url": "http://images4.wikia.nocookie.net/__cb20100414191844/cosmicencounter/images/thumb/c/c2/Plant_%28FFG%29.jpg/150px-Plant_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Seeker",
           "description": "Asks \"yes or no\" question",
           "complexity": "yellow",
-          "image_url": "http://images3.wikia.nocookie.net/__cb20100414192207/cosmicencounter/images/thumb/7/74/Seeker_%28FFG%29.jpg/150px-Seeker_%28FFG%29.jpg"
+          "image_url": "http://images3.wikia.nocookie.net/__cb20100414192207/cosmicencounter/images/thumb/7/74/Seeker_%28FFG%29.jpg/150px-Seeker_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Sniveler",
           "description": "Catches up when behind",
           "complexity": "yellow",
-          "image_url": "http://images1.wikia.nocookie.net/__cb20100414192751/cosmicencounter/images/thumb/e/ea/Sniveler_%28FFG%29.jpg/150px-Sniveler_%28FFG%29.jpg"
+          "image_url": "http://images1.wikia.nocookie.net/__cb20100414192751/cosmicencounter/images/thumb/e/ea/Sniveler_%28FFG%29.jpg/150px-Sniveler_%28FFG%29.jpg",
+          "expansion": "CI"
         }, {
           "name": "Symbiote",
           "description": "Has twice as many ships",
           "complexity": "green",
-          "image_url": "http://images2.wikia.nocookie.net/__cb20100414193138/cosmicencounter/images/thumb/4/48/Symbiote_%28FFG%29.jpg/150px-Symbiote_%28FFG%29.jpg"
+          "image_url": "http://images2.wikia.nocookie.net/__cb20100414193138/cosmicencounter/images/thumb/4/48/Symbiote_%28FFG%29.jpg/150px-Symbiote_%28FFG%29.jpg",
+          "expansion": "CI"
         }
       ],
       2: [
@@ -369,102 +389,122 @@
           "name": "Cavalry",
           "description": "Plays Encounter Card as Ally",
           "complexity": "green",
-          "image_url": "/images/aliens/cc/191845_187061524664693_96650_o.jpg"
+          "image_url": "/images/aliens/cc/191845_187061524664693_96650_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Changeling",
           "description": "Swaps Powers with Opponent",
           "complexity": "green",
-          "image_url": "/images/aliens/cc/191563_187075964663249_1331649_o.jpg"
+          "image_url": "/images/aliens/cc/191563_187075964663249_1331649_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Empath",
           "description": "May Change Attack to Negotiate",
           "complexity": "green",
-          "image_url": "/images/aliens/cc/172402_187076907996488_4911183_o.jpg"
+          "image_url": "/images/aliens/cc/172402_187076907996488_4911183_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Filth",
           "description": "Drives Away Others' Ships",
           "complexity": "red",
-          "image_url": "/images/aliens/cc/172764_187333644637481_2962227_o.jpg"
+          "image_url": "/images/aliens/cc/172764_187333644637481_2962227_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Glutton",
           "description": "Gets Extra Ships and Cards",
           "complexity": "green",
-          "image_url": "/images/aliens/cc/193009_187333681304144_3855471_o.jpg"
+          "image_url": "/images/aliens/cc/193009_187333681304144_3855471_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Graviton",
           "description": "Compresses Attacks to 1 Digit",
           "complexity": "yellow",
-          "image_url": "/images/aliens/cc/194588_187333737970805_4847585_o.jpg"
+          "image_url": "/images/aliens/cc/194588_187333737970805_4847585_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Industrialist",
           "description": "Adds Losing Attack Cards",
           "complexity": "yellow",
-          "image_url": "/images/aliens/cc/195081_187333774637468_6358511_o.jpg"
+          "image_url": "/images/aliens/cc/195081_187333774637468_6358511_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Invader",
           "description": "Launches Sneak Attacks",
           "complexity": "yellow",
-          "image_url": "/images/aliens/cc/191832_187333811304131_6854086_o.jpg"
+          "image_url": "/images/aliens/cc/191832_187333811304131_6854086_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Lunatic",
           "description": "Allies Against Self ",
           "complexity": "yellow",
-          "image_url": "/images/aliens/cc/194438_187333841304128_2793816_o.jpg"
+          "image_url": "/images/aliens/cc/194438_187333841304128_2793816_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Mimic",
           "description": "Copies Opponent's Hand Size",
           "complexity": "yellow",
-          "image_url": "/images/aliens/cc/191031_187333897970789_3718229_o.jpg"
+          "image_url": "/images/aliens/cc/191031_187333897970789_3718229_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Prophet",
           "description": "Predicts Encounter Winner",
           "complexity": "red",
-          "image_url": "/images/aliens/cc/191037_187333927970786_6816324_o.jpg"
+          "image_url": "/images/aliens/cc/191037_187333927970786_6816324_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Relic",
           "description": "Gains Power from New Hands",
           "complexity": "red",
-          "image_url": "/images/aliens/cc/172730_187333974637448_3026320_o"
+          "image_url": "/images/aliens/cc/172730_187333974637448_3026320_o",
+          "expansion": "CC"
         }, {
           "name": "Saboteur",
           "description": "Booby Traps Planets",
           "complexity": "red",
-          "image_url": "/images/aliens/cc/192314_187334011304111_5870596_o.jpg"
+          "image_url": "/images/aliens/cc/192314_187334011304111_5870596_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Sadist",
           "description": "Tries to Kill Others' Ships",
           "complexity": "red",
-          "image_url": "/images/aliens/cc/191678_187334044637441_5301626_o.jpg"
+          "image_url": "/images/aliens/cc/191678_187334044637441_5301626_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Siren",
           "description": "Entices Challengers",
           "complexity": "yellow",
-          "image_url": "191055_187334091304103_4293329_o.jpg"
+          "image_url": "191055_187334091304103_4293329_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "The Claw",
           "description": "Steals Planets",
           "complexity": "red",
-          "image_url": "/images/aliens/cc/194822_187334121304100_2050311_o.jpg"
+          "image_url": "/images/aliens/cc/194822_187334121304100_2050311_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Trickster",
           "description": "Wins 50% of the Time",
           "complexity": "green",
-          "image_url": "/images/aliens/cc/194944_187334154637430_5196924_o.jpg"
+          "image_url": "/images/aliens/cc/194944_187334154637430_5196924_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Visionary",
           "description": "Dictates Encounter Cards",
           "complexity": "yellow",
-          "image_url": "/images/aliens/cc/190843_187334204637425_3432484_o.jpg"
+          "image_url": "/images/aliens/cc/190843_187334204637425_3432484_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Warhawk",
           "description": "Never Negotiates",
           "complexity": "yellow",
-          "image_url": "/images/aliens/cc/192678_187334244637421_1782660_o.jpg"
+          "image_url": "/images/aliens/cc/192678_187334244637421_1782660_o.jpg",
+          "expansion": "CC"
         }, {
           "name": "Xenophile",
           "description": "Gains Strength from 'Tourists'",
           "complexity": "green",
-          "image_url": "/images/aliens/cc/194166_187334284637417_7673656_o.jpg"
+          "image_url": "/images/aliens/cc/194166_187334284637417_7673656_o.jpg",
+          "expansion": "CC"
         }
       ],
       3: [
@@ -472,102 +512,122 @@
           "name": "Animal",
           "description": "Throws a Hearty Party",
           "complexity": "yellow",
-          "image_url": "/images/aliens/ca/421889_332049870165857_1814785554_n.jpg"
+          "image_url": "/images/aliens/ca/421889_332049870165857_1814785554_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Bandit",
           "description": "'Takes A Spin' Each Turn",
           "complexity": "red",
-          "image_url": "/images/aliens/ca/426136_332926810078163_1877516668_n.jpg"
+          "image_url": "/images/aliens/ca/426136_332926810078163_1877516668_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Butler",
           "description": "Gets Cards for Chores",
           "complexity": "yellow",
-          "image_url": "/images/aliens/ca/417633_332926830078161_2128349110_n.jpg"
+          "image_url": "/images/aliens/ca/417633_332926830078161_2128349110_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Chrysalis",
           "description": "Becomes Another Alien",
           "complexity": "red",
-          "image_url": "/images/aliens/ca/428682_332926843411493_1730310537_n.jpg"
+          "image_url": "/images/aliens/ca/428682_332926843411493_1730310537_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Crystal",
           "description": "May Multiply Attack Cards",
           "complexity": "yellow",
-          "image_url": "/images/aliens/ca/419338_332926883411489_662141657_n.jpg"
+          "image_url": "/images/aliens/ca/419338_332926883411489_662141657_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Cyborg",
           "description": "Has 3 Extra Face Up Cards",
           "complexity": "yellow",
-          "image_url": "/images/aliens/ca/425627_332926906744820_755753557_n.jpg"
+          "image_url": "/images/aliens/ca/425627_332926906744820_755753557_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Extortionist",
           "description": "Gets Half of All New Cards",
           "complexity": "yellow",
-          "image_url": "/images/aliens/ca/425462_332926913411486_2108023210_n.jpg"
+          "image_url": "/images/aliens/ca/425462_332926913411486_2108023210_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "General",
           "description": "Draws Cards for Allies",
           "complexity": "green",
-          "image_url": "/images/aliens/ca/420692_332926923411485_323510960_n.jpg"
+          "image_url": "/images/aliens/ca/420692_332926923411485_323510960_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Gorgon",
           "description": "Petrifies Others' Ships",
           "complexity": "red",
-          "image_url": "/images/aliens/ca/416777_332926940078150_766556526_n.jpg"
+          "image_url": "/images/aliens/ca/416777_332926940078150_766556526_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Horde",
           "description": "Gains Tokens That Act as Ships",
           "complexity": "red",
-          "image_url": "/images/aliens/ca/417313_341785605858950_534260200_n.jpg"
+          "image_url": "/images/aliens/ca/417313_341785605858950_534260200_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Lightning",
           "description": "Gains and Takes Away Encounters",
           "complexity": "yellow",
-          "image_url": "/images/aliens/ca/423153_332927016744809_1559422573_n.jpg"
+          "image_url": "/images/aliens/ca/423153_332927016744809_1559422573_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Poison",
           "description": "Has Hazardous Home System",
           "complexity": "red",
-          "image_url": "/images/aliens/ca/421005_332927033411474_1134013476_n.jpg"
+          "image_url": "/images/aliens/ca/421005_332927033411474_1134013476_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Pygmy",
           "description": "Colonies Count as Half",
           "complexity": "green",
-          "image_url": "/images/aliens/ca/64123_332927053411472_342416316_n.jpg"
+          "image_url": "/images/aliens/ca/64123_332927053411472_342416316_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Reborn",
           "description": "Filters Hand of Cards",
           "complexity": "green",
-          "image_url": "/images/aliens/ca/419835_332927083411469_492012024_n.jpg"
+          "image_url": "/images/aliens/ca/419835_332927083411469_492012024_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Remote",
           "description": "Forces Others to Ally",
           "complexity": "red",
-          "image_url": "/images/aliens/ca/417646_332927110078133_1763570463_n.jpg"
+          "image_url": "/images/aliens/ca/417646_332927110078133_1763570463_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Sapient",
           "description": "Adds Wisdom Points",
           "complexity": "green",
-          "image_url": "/images/aliens/ca/417106_332927163411461_331077145_n.jpg"
+          "image_url": "/images/aliens/ca/417106_332927163411461_331077145_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Schizoid",
           "description": "Changes Goal of Game",
           "complexity": "red",
-          "image_url": "/images/aliens/ca/427989_332927193411458_1141086369_n.jpg"
+          "image_url": "/images/aliens/ca/427989_332927193411458_1141086369_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Skeptic",
           "description": "Doubles Risk of Encounter",
           "complexity": "yellow",
-          "image_url": "/images/aliens/ca/420759_332927213411456_56993550_n.jpg"
+          "image_url": "/images/aliens/ca/420759_332927213411456_56993550_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Sting",
           "description": "Switch Lost Ships",
           "complexity": "yellow",
-          "image_url": "/images/aliens/ca/419731_332927236744787_1698549843_n.jpg"
+          "image_url": "/images/aliens/ca/419731_332927236744787_1698549843_n.jpg",
+          "expansion": "CA"
         }, {
           "name": "Winner",
           "description": "Gains Extra Colonies",
           "complexity": "yellow",
-          "image_url": "/images/aliens/ca/421893_332927246744786_1640395600_n.jpg"
+          "image_url": "/images/aliens/ca/421893_332927246744786_1640395600_n.jpg",
+          "expansion": "CA"
         }
       ]
     };
@@ -622,7 +682,12 @@
     };
 
     Randomiser.prototype.alienDiv = function(alien) {
-      return $("<div class='alien " + alien.complexity + "'>\n  <h2>" + alien.name + "</h2>\n  <h3>" + alien.description + "</h3>\n  <img class='alien-card' src='" + alien.image_url + "'/>\n</div>").html();
+      var expansion;
+      expansion = "";
+      if (alien.expansion) {
+        expansion = "<span class='text-muted'>[" + alien.expansion + "]</span>";
+      }
+      return $("<div>\n<div class='alien " + alien.complexity + "'>\n  <h3>\n    <i class='icon-circle'></i>\n    " + alien.name + "\n    " + expansion + "\n    <i class='icon-circle'></i>\n  </h3>\n  <p>" + alien.description + "</p>\n  <img class='alien-card' src='" + alien.image_url + "'/>\n</div>\n</div>").html();
     };
 
     Randomiser.prototype.run = function() {
@@ -641,7 +706,7 @@
       el.empty();
       return _.each(window.randomiser.players, function(player, index) {
         var div, html;
-        html = "<div class='row player'>\n<div class='col-md-12 col-xs-12'>\n <div class='row text-center'><h1>Player " + (index + 1) + "</h1></div>\n <div class='row'>\n   <div class='col-xs-6 col-md-4 col-md-offset-1 text-center well'>" + (_this.alienDiv(player[0])) + "</div>\n   <div class='col-xs-6 col-md-4 col-md-offset-2 text-center well'>" + (_this.alienDiv(player[1])) + "</div>\n </div>\n</div>\n</div>";
+        html = "<div class='row player'>\n<div class='col-md-12 col-xs-12'>\n <div class='row text-center player-name'><h1><i class='icon-user'></i> Player " + (index + 1) + "</h1></div>\n <div class='row'>\n   <div class='col-xs-12 col-md-4 col-md-offset-1 text-center well-sm'>" + (_this.alienDiv(player[0])) + "</div>\n   <div class='col-xs-12 col-md-4 col-md-offset-2 text-center well-sm'>" + (_this.alienDiv(player[1])) + "</div>\n </div>\n</div>\n</div>";
         div = $(html);
         return el.append(div);
       });

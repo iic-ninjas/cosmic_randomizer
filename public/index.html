@@ -1,74 +1,116 @@
 <html>
 <head>
-  <title>Cosmic Companion</title>
-  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
-  <link href="/css/bootstrap.css" rel="stylesheet">
-  <script src="/js/bootstrap.js"></script>
-    <style>
-        .alien-card{
-            width: 150px;
-        }
-    </style>
+    <title>Cosmic Companion</title>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+    <link href="/favicon.png" rel="icon" type="image/png">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <link href="/css/application.css" rel="stylesheet">
+    <script src="/js/bootstrap.js"></script>
 </head>
 <body>
-  <div class='container'>
-    <header>
+
+<header>
+    <div class='container'>
         <h1>
-            Cosmic Companion
-            <small> A Companion app for Cosmic Encounter</small>
+            <i class='icon-rocket'></i>
+            <span>Cosmic Companion</span>
         </h1>
+        <p>A Companion app for Cosmic Encounter</p>
+    </div>
+</header>
 
-    </header>
-    <div class='form-inline'>
-        <label>Alien Races from: </label>
-        <div class="btn-group games" data-toggle="buttons">
-          <label class="btn btn-default active btn-xs" data-value='0'>
-            <input type="checkbox"> Base Game
-          </label>
-          <label class="btn btn-default btn-xs" data-value='1'>
-            <input type="checkbox"> Cosmic Incursion
-          </label>
-          <label class="btn btn-default btn-xs" data-value='2'>
-            <input type="checkbox"> Cosmic Conflict
-          </label>
-          <label class="btn btn-default btn-xs" data-value='3'>
-            <input type="checkbox"> Cosmic Alliance
-          </label>
+<div class='container'>
+    <div class='form-horizontal'>
+
+
+        <div class='form-group'>
+            <label class='control-label col-md-2'>
+                <i class='icon-globe'></i>
+                Alien Races from:
+            </label>
+            <div class="games col-md-10" data-toggle="buttons">
+                <label class="btn btn-default active col-xs-12 col-md-2" data-value='0'>
+                    <input type="checkbox">
+                    <i class='icon-ok'></i>
+                    <span>Base Game</span>
+                </label>
+                <label class="btn btn-default col-xs-12 col-md-2" data-value='1'>
+                    <input type="checkbox">
+                    <i class='icon-ok'></i>
+                    <span>Cosmic Incursion</span>
+                </label>
+                <label class="btn btn-default col-xs-12 col-md-2" data-value='2'>
+                    <input type="checkbox">
+                    <i class='icon-ok'></i>
+                    <span>Cosmic Conflict</span>
+                </label>
+                <label class="btn btn-default col-xs-12 col-md-2" data-value='3'>
+                    <input type="checkbox">
+                    <i class='icon-ok'></i>
+                    <span>Cosmic Alliance</span>
+                </label>
+            </div>
         </div>
-    </div>
-      <br/>
-      <div class='form-inline'>
-              <label>Race Complexity: </label>
-              <div class="btn-group complexity" data-toggle="buttons">
-                <label class="btn btn-success active btn-xs" data-value='green'>
-                  <input type="checkbox"> BEGINNER
-                </label>
-                <label class="btn btn-warning active btn-xs" data-value='yellow'>
-                  <input type="checkbox"> INTERMEDIATE
-                </label>
-                <label class="btn btn-danger active btn-xs" data-value='red'>
-                  <input type="checkbox"> ADVANCED
-                </label>
-              </div>
-  </div>
-      <br/>
 
-    <div class='form-inline'>
-        <select class='form-control' id='number-of-players' style='width: 200px'>
-            <option value=4>4 Players</option>
-            <option value=5>5 Players</option>
-            <option value=6>6 Players</option>
-            <option value=7>7 Players</option>
-            <option value=8>8 Players</option>
-        </select>
-        <input type='submit' value='RANDOMISE' class='btn btn-m btn-primary randomise-button'></input>
+        <div class='form-group'>
+            <label class='control-label col-md-2'>
+                <i class='icon-sun'></i>
+                Race Complexity:
+            </label>
+            <div class="complexity col-md-10" data-toggle="buttons">
+                <label class="btn btn-success active col-xs-12 col-md-2" data-value='green'>
+                    <input type="checkbox">
+                    <i class='icon-ok'></i>
+                    <span>BEGINNER</span>
+                </label>
+                <label class="btn btn-warning active col-xs-12 col-md-2" data-value='yellow'>
+                    <input type="checkbox">
+                    <i class='icon-ok'></i>
+                    <span>INTERMEDIATE</span>
+                </label>
+                <label class="btn btn-danger active col-xs-12 col-md-2" data-value='red'>
+                    <input type="checkbox">
+                    <i class='icon-ok'></i>
+                    <span>ADVANCED</span>
+                </label>
+            </div>
+        </div>
+
+        <div class='form-group'>
+            <label class='control-label col-md-2'>
+                <i class='icon-group'></i>
+                Players:
+            </label>
+            <div class='col-md-10'>
+                <select class='form-control col-md-3 col-xs-12' id='number-of-players'>
+                    <option value=3>3 Players</option>
+                    <option value=4 selected='selected'>4 Players</option>
+                    <option value=5>5 Players</option>
+                    <option value=6>6 Players</option>
+                    <option value=7>7 Players</option>
+                    <option value=8>8 Players</option>
+                </select>
+
+            </div>
+        </div>
+        <div class='form-group'>
+            <div class="col-md-offset-2 col-md-10 col-xs-12">
+                <button class='btn btn-lg btn-primary randomise-button col-xs-12 col-md-3'>
+                    <i class='icon-random'></i>
+                    <span>Randomise</span>
+                </button>
+            </div>
+        </div>
+
     </div>
+
     <div class='content'>
 
     </div>
 
-  </div>
-  <script src="/js/cosmic_randomizer.js"></script>
+</div>
+<script src="/js/application.js"></script>
 </body>
 </html>
