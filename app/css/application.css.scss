@@ -77,3 +77,18 @@ header{
   &:nth-child(7) .player-name { color: black; }
   &:nth-child(8) .player-name { color: white; text-shadow: 0 0px 1px black}
 }
+
+body{
+  position: relative;
+  padding-bottom: 120px;
+}
+
+footer{
+  background: rgba(white, 0.5);
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid rgba(0,0,0,0.3);
+}
