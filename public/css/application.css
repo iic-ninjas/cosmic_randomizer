@@ -70,3 +70,16 @@ footer {
   left: 0;
   right: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.3); }
+
+.settings-toggle.collapsed .icon-chevron-down {
+  display: inline; }
+.settings-toggle.collapsed .icon-chevron-up {
+  display: none; }
+.settings-toggle .icon-chevron-down {
+  display: none; }
+.settings-toggle .icon-chevron-up {
+  display: inline; }
+
+@media (min-width: 768px) {
+  .settings.collapse {
+    display: block; } }

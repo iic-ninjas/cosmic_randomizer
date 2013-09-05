@@ -92,3 +92,26 @@ footer{
   right: 0;
   border-top: 1px solid rgba(0,0,0,0.3);
 }
+
+.settings-toggle{
+  &.collapsed{
+    .icon-chevron-down{
+      display: inline;
+    }
+    .icon-chevron-up{
+      display: none;
+    }
+  }
+  .icon-chevron-down{
+    display: none;
+  }
+  .icon-chevron-up{
+    display: inline;
+  }
+}
+
+.settings.collapse{
+  @include desktop{
+    display: block;
+  }
+}
