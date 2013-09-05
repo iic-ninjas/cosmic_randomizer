@@ -103,6 +103,7 @@ class App.Randomiser
       div = $(html)
       el.append(div)
 
+    ga('send', 'event', 'randomizer', 'randomize', 'randomize', @options.numPlayers);
 
 
 window.App = App
