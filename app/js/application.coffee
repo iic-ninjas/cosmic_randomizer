@@ -16,7 +16,29 @@ class App.Randomiser
 
   constructor: (options = {}) ->
     @options = _.defaults(options, @defaults)
+    @_loadSettings()
+    @_setUI()
     @listen()
+
+  _loadSettings: ->
+    @options = _.extend(@options, store.getAll())
+
+  _setUI: ->
+    @ui =
+      numberOfPlayers: $("#number-of-players")
+      games: $(".games")
+      complexity: $(".complexity")
+
+    @ui.games.find('.active').removeClass('active')
+    for game in @options.games
+      @ui.games.find("[data-value=#{game}]").addClass('active')
+
+    @ui.complexity.find('.active').removeClass('active')
+    for comp in @options.complexity
+      @ui.complexity.find("[data-value=#{comp}]").addClass('active')
+
+    @ui.numberOfPlayers.val(@options.numPlayers)
+
 
   reset: ->
     @aliens = []
@@ -54,9 +76,12 @@ class App.Randomiser
       """).html()
 
   run: ->
-    @options.numPlayers = parseInt($("#number-of-players").val())
-    @options.games = $(".games .active").map( -> $(@).data('value') )
-    @options.complexity = $(".complexity .active").map( -> $(@).data('value') )
+    @options.numPlayers = parseInt(@ui.numberOfPlayers.val())
+    @options.games = _.map(@ui.games.find('.active'), (el) -> $(el).data('value'))
+    @options.complexity = _.map(@ui.complexity.find('.active'), (el) -> $(el).data('value'))
+    store.set('numPlayers', @options.numPlayers)
+    store.set('games', @options.games)
+    store.set('complexity', @options.complexity)
     @reset()
     @shuffle()
     el = $(".content")
@@ -67,7 +92,7 @@ class App.Randomiser
              <div class='row player'>
              <div class='col-md-12 col-xs-12'>
               <div class='row text-center player-name'><h1><i class='icon-user'></i> Player #{index+1}</h1></div>
-              <div class='row'>
+              <div class='row col-xs-12'>
                 <div class='col-xs-12 col-md-4 col-md-offset-1 text-center well-sm'>#{@alienDiv(player[0])}</div>
                 <div class='col-xs-12 col-md-4 col-md-offset-2 text-center well-sm'>#{@alienDiv(player[1])}</div>
               </div>

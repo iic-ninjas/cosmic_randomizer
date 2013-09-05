@@ -648,8 +648,36 @@
         options = {};
       }
       this.options = _.defaults(options, this.defaults);
+      this._loadSettings();
+      this._setUI();
       this.listen();
     }
+
+    Randomiser.prototype._loadSettings = function() {
+      return this.options = _.extend(this.options, store.getAll());
+    };
+
+    Randomiser.prototype._setUI = function() {
+      var comp, game, _i, _j, _len, _len1, _ref, _ref1;
+      this.ui = {
+        numberOfPlayers: $("#number-of-players"),
+        games: $(".games"),
+        complexity: $(".complexity")
+      };
+      this.ui.games.find('.active').removeClass('active');
+      _ref = this.options.games;
+      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+        game = _ref[_i];
+        this.ui.games.find("[data-value=" + game + "]").addClass('active');
+      }
+      this.ui.complexity.find('.active').removeClass('active');
+      _ref1 = this.options.complexity;
+      for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
+        comp = _ref1[_j];
+        this.ui.complexity.find("[data-value=" + comp + "]").addClass('active');
+      }
+      return this.ui.numberOfPlayers.val(this.options.numPlayers);
+    };
 
     Randomiser.prototype.reset = function() {
       var _this = this;
@@ -693,20 +721,23 @@
     Randomiser.prototype.run = function() {
       var el,
         _this = this;
-      this.options.numPlayers = parseInt($("#number-of-players").val());
-      this.options.games = $(".games .active").map(function() {
-        return $(this).data('value');
+      this.options.numPlayers = parseInt(this.ui.numberOfPlayers.val());
+      this.options.games = _.map(this.ui.games.find('.active'), function(el) {
+        return $(el).data('value');
       });
-      this.options.complexity = $(".complexity .active").map(function() {
-        return $(this).data('value');
+      this.options.complexity = _.map(this.ui.complexity.find('.active'), function(el) {
+        return $(el).data('value');
       });
+      store.set('numPlayers', this.options.numPlayers);
+      store.set('games', this.options.games);
+      store.set('complexity', this.options.complexity);
       this.reset();
       this.shuffle();
       el = $(".content");
       el.empty();
       return _.each(window.randomiser.players, function(player, index) {
         var div, html;
-        html = "<div class='row player'>\n<div class='col-md-12 col-xs-12'>\n <div class='row text-center player-name'><h1><i class='icon-user'></i> Player " + (index + 1) + "</h1></div>\n <div class='row'>\n   <div class='col-xs-12 col-md-4 col-md-offset-1 text-center well-sm'>" + (_this.alienDiv(player[0])) + "</div>\n   <div class='col-xs-12 col-md-4 col-md-offset-2 text-center well-sm'>" + (_this.alienDiv(player[1])) + "</div>\n </div>\n</div>\n</div>";
+        html = "<div class='row player'>\n<div class='col-md-12 col-xs-12'>\n <div class='row text-center player-name'><h1><i class='icon-user'></i> Player " + (index + 1) + "</h1></div>\n <div class='row col-xs-12'>\n   <div class='col-xs-12 col-md-4 col-md-offset-1 text-center well-sm'>" + (_this.alienDiv(player[0])) + "</div>\n   <div class='col-xs-12 col-md-4 col-md-offset-2 text-center well-sm'>" + (_this.alienDiv(player[1])) + "</div>\n </div>\n</div>\n</div>";
         div = $(html);
         return el.append(div);
       });
