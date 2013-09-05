@@ -28,6 +28,7 @@ header {
   color: red; }
 
 .alien-card {
+  margin: 0 auto;
   width: 150px; }
 
 .games .btn i, .complexity .btn i {

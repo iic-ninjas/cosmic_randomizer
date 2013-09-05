@@ -41,9 +41,11 @@ header{
   &.green i   { color: green; }
   &.yellow i  { color: yellow; }
   &.red i     { color: red; }
+
 }
 
 .alien-card{
+  margin: 0 auto;
   width: 150px;
 }
 
