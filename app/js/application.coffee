@@ -70,10 +70,10 @@ class App.Randomiser
           <i class='icon-circle'></i>
         </h3>
         <p>#{alien.description}</p>
+        <img class='alien-card hidden-xs' src='#{alien.image_url}'/>
       </div>
       </div>
       """).html()
-#    #        <img class='alien-card' src='#{alien.image_url}'/>
 
   run: ->
     @options.numPlayers = parseInt(@ui.numberOfPlayers.val())

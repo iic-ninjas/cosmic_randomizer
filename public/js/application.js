@@ -715,7 +715,7 @@
       if (alien.expansion) {
         expansion = "<span class='text-muted'>[" + alien.expansion + "]</span>";
       }
-      return $("<div>\n<div class='alien " + alien.complexity + "'>\n  <h3>\n    <i class='icon-circle'></i>\n    " + alien.name + "\n    " + expansion + "\n    <i class='icon-circle'></i>\n  </h3>\n  <p>" + alien.description + "</p>\n</div>\n</div>").html();
+      return $("<div>\n<div class='alien " + alien.complexity + "'>\n  <h3>\n    <i class='icon-circle'></i>\n    " + alien.name + "\n    " + expansion + "\n    <i class='icon-circle'></i>\n  </h3>\n  <p>" + alien.description + "</p>\n  <img class='alien-card hidden-xs' src='" + alien.image_url + "'/>\n</div>\n</div>").html();
     };
 
     Randomiser.prototype.run = function() {
