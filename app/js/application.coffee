@@ -92,14 +92,13 @@ class App.Randomiser
              <div class='row player'>
              <div class='col-md-12 col-xs-12'>
               <div class='row text-center player-name'><h1><i class='icon-user'></i> Player #{index+1}</h1></div>
-              <div class='row col-xs-12'>
+              <div class='row'>
                 <div class='col-xs-12 col-md-4 col-md-offset-1 text-center well-sm'>#{@alienDiv(player[0])}</div>
                 <div class='col-xs-12 col-md-4 col-md-offset-2 text-center well-sm'>#{@alienDiv(player[1])}</div>
               </div>
              </div>
              </div>
              """
-#      div = $("<div class='player'><h2>Player #{index}</h2><img class='alien-card' src='#{player[0].image_url}'/><img class='alien-card' src='#{player[1].image_url}'/></div>")
       div = $(html)
       el.append(div)
 
