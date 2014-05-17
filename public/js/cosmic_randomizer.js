@@ -569,6 +569,159 @@
           "complexity": "yellow",
           "image_url": "/images/aliens/ca/421893_332927246744786_1640395600_n.jpg"
         }
+      ],
+      4: [
+        {
+          "name": "Arcade",
+          "description": "Wins by dominating encounters",
+          "complexity": "yellow",
+          "image_url":"/images/aliens/cs/10247437_671959039508270_1232519669686203130_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Bulwark",
+          "description": "Reduces ships lost to one",
+          "complexity": "green",
+          "image_url": "images/aliens/cs/10290643_671959742841533_2879411614123833086_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Brute",
+          "description": "Threatens opponent's ships",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/1901300_671959612841546_3491454936800775210_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Converter",
+          "description": "Can substitute cards for ships",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/10257810_671959846174856_4910757476452122511_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Coordinator",
+          "description": "Manipulates destiny deck",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/10291860_671959999508174_1010958084850418634_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Dervish",
+          "description": "Rotates cards left or right",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/1506571_671960082841499_8435007470690619533_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Grumpus",
+          "description": "Kicks others off vacated planets",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/10345930_671960186174822_7292034186705125986_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Mouth",
+          "description": "Gobbles up cards",
+          "complexity": "red",
+          "image_url": "/images/aliens/cs/10258088_671960322841475_4297022260857877743_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Neighbor",
+          "description": "Adds all ships in system to attack",
+          "complexity": "green",
+          "image_url": "/cs/10336632_671961259508048_8491124113525716742_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Outlaw",
+          "description": "Steals cards from opponents",
+          "complexity": "green",
+          "image_url": "/images/aliens/cs/10270477_671961332841374_3949671639916198768_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Patriot",
+          "description": "Offers cards to secure loyalty",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/10172846_671962476174593_2206845725095462767_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Phantasm",
+          "description": "Replaces encounter cards",
+          "complexity": "green",
+          "image_url": "/images/aliens/cs/10329261_671962782841229_3218936144133283409_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Porcupine",
+          "description": "Discards cards for attack power",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/10176199_671962912841216_8216890103708443371_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Roach",
+          "description": "Spawns additional ships",
+          "complexity": "red",
+          "image_url": "/images/aliens/cs/10325285_671963052841202_7337506709834638895_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Scavenger",
+          "description": "Searches discard pile",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/10345774_671963226174518_3647115758896449707_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Sloth",
+          "description": "Shows up at last minute",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/1625630_671963372841170_296003475535317600_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Sneak",
+          "description": "Colonizes attacker",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/10291803_671963526174488_5355497721778838606_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Squee",
+          "description": "Is dangerously adorable",
+          "complexity": "red",
+          "image_url": "/images/aliens/cs/10298871_671963682841139_1529304977832120231_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Swindler",
+          "description": "Steals a player's identity",
+          "complexity": "red",
+          "image_url": "/images/aliens/cs/10256475_671963809507793_1481390214591761867_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Sycophant",
+          "description": "Wins through flattery",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/10341949_671964739507700_5647947190857010954_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Tide",
+          "description": "Makes players draw or discard",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/10330382_671964982841009_1608726119239615134_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Tyrant",
+          "description": "Claims other players' ships",
+          "complexity": "red",
+          "image_url": "/images/aliens/cs/10262004_671965186174322_2560913832643642572_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Worm",
+          "description": "Re-aims hyperspace gate",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/10259786_671965396174301_172097893750132990_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Wormhole",
+          "description": "Commits ships from warp",
+          "complexity": "yellow",
+          "image_url": "/images/aliens/cs/10339601_671967299507444_7264824705744618010_n.jpg",
+          "expansion": "CS"
+        }, {
+          "name": "Vox",
+          "description": "Goes up to eleven",
+          "complexity": "green",
+          "image_url": "/images/aliens/cs/10288751_671965292840978_4485842072671484099_n.jpg",
+          "expansion": "CS"
+        }
       ]
     };
 
