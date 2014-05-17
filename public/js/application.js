@@ -683,7 +683,7 @@
           "name": "Neighbor",
           "description": "Adds all ships in system to attack",
           "complexity": "green",
-          "image_url": "/cs/10336632_671961259508048_8491124113525716742_n.jpg",
+          "image_url": "images/aliens/cs/10336632_671961259508048_8491124113525716742_n.jpg",
           "expansion": "CS"
         }, {
           "name": "Outlaw",
