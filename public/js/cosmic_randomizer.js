@@ -722,6 +722,189 @@
           "image_url": "/images/aliens/cs/10288751_671965292840978_4485842072671484099_n.jpg",
           "expansion": "CS"
         }
+      ],
+      5: [
+        {
+          "name": "Ace",
+          "description": "Wins with one colony",
+          "complexity": "red",
+          "image_url": "images/aliens/cd/1794525_767481829955990_4245521112225984646_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Alchemist",
+          "description": "Converts cards by type",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10173569_767481833289323_4130035369811605796_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Angler",
+          "description": "Fishes for cards",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10805803_767481836622656_3977656876052178680_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Aristocrat",
+          "description": "Picks hand and draws extra flares",
+          "complexity": "red",
+          "image_url": "images/aliens/cd/10411174_767481866622653_3289260112971208895_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Bride",
+          "description": "Marries players",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10850278_767481873289319_3799276810574138617_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Daredevil",
+          "description": "Cuts close to gain rewards",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10406700_767481879955985_563184898959479992_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Diplomat",
+          "description": "Can negotiate 3-way deals",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10455034_767481909955982_2881131477458287646_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Doppelganger",
+          "description": "Borrows cards to play",
+          "complexity": "red",
+          "image_url": "images/aliens/cd/10413292_767481916622648_2007943224326347053_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Engineer",
+          "description": "Gains tech when losing",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10395192_767481923289314_4606987447517369161_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Explorer",
+          "description": "Finds new planets",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10432153_767481953289311_8672470623982267430_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Greenhorn",
+          "description": "Makes convenient mistakes",
+          "complexity": "green",
+          "image_url": "images/aliens/cd/10845918_767481966622643_5146364928519140736_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Host",
+          "description": "Plays and adds unused flares",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/1560461_767481973289309_5646904626834197557_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Joker",
+          "description": "Makes attack cards wild",
+          "complexity": "red",
+          "image_url": "images/aliens/cd/10845908_767482003289306_4755827075268908947_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Judge",
+          "description": "Assigns extra win/lose terms",
+          "complexity": "red",
+          "image_url": "images/aliens/cd/10423805_767482009955972_1085408951225319280_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Laser",
+          "description": "Blinds opponent to part of hand",
+          "complexity": "green",
+          "image_url": "images/aliens/cd/1452470_767482016622638_1508002933610878427_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Lizard",
+          "description": "Metamorphoses after winning",
+          "complexity": "green",
+          "image_url": "images/aliens/cd/1920169_767482049955968_4345093043577539229_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Love",
+          "description": "Makes the cosmos go 'round",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10262001_767482069955966_6446684206586414334_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Mesmer",
+          "description": "Can change own artifacts",
+          "complexity": "red",
+          "image_url": "images/aliens/cd/10432121_767482086622631_4777735064819189459_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Mirage",
+          "description": "Changes numbers of ships involved",
+          "complexity": "green",
+          "image_url": "images/aliens/cd/10846042_767482123289294_7815557810545808478_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Muckraker",
+          "description": "Gets allies thrown out",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10846034_767482129955960_5250652159970256524_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Pentaform",
+          "description": "Has five life stages",
+          "complexity": "red",
+          "image_url":"/images/aliens/cd/1010227_767482136622626_90797058558254544_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Pickpocket",
+          "description": "Lifts cards from other players",
+          "complexity": "green",
+          "image_url": "images/aliens/cd/1506842_767482166622623_5165008123896009827_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Pirate",
+          "description": "Captures ships for booty",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10432142_767482169955956_9054008744688214830_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Quartermaster",
+          "description": "Delivers rewards",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10511239_767482179955955_4850052918818413744_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Reactor",
+          "description": "Makes aliens super",
+          "complexity": "red",
+          "image_url": "images/aliens/cd/10429265_767482206622619_4940821873134985365_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Tourist",
+          "description": "Travels on cruise liner",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10845975_767482213289285_1921358541351681148_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Usurper",
+          "description": "Makes allies play encounter cards",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10850099_767482219955951_605073590589495157_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Voyager",
+          "description": "Can have a colony in the warp",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10421500_767482263289280_5525426938932060105_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Whirligig",
+          "description": "Mixes two hands",
+          "complexity": "green",
+          "image_url": "images/aliens/cd/10850209_767482269955946_4793563515184943455_n.jpg",
+          "expansion": "CD"
+        }, {
+          "name": "Yin-Yang",
+          "description": "Allies with both sides",
+          "complexity": "yellow",
+          "image_url": "images/aliens/cd/10846042_767482276622612_2330573739237233302_n.jpg",
+          "expansion": "CD"
+        }
       ]
     };
 
